@@ -1,22 +1,25 @@
 {
   "$schema": "https://api.archbee.com/git-config-schema",
   "name": "Documentation",
-  "docsPath": "docs",
+  "docsPath": "docs/",
   "structure": {
     "assets": "assets",
     "docsTree": [
       {
-        "isCategory": true,
         "categoryName": "Getting Started",
+        "isCategory": true,
         "children": [
           {
-            "path": "index.mdx"
+            "path": "index.mdx",
+            "children": []
           },
           {
-            "path": "quickstart.mdx"
+            "path": "quickstart.mdx",
+            "children": []
           },
           {
-            "path": "development.mdx"
+            "path": "development.mdx",
+            "children": []
           }
         ]
       }
